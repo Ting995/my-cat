@@ -1,7 +1,7 @@
 <view class="main">
   <view class="game-area">
     <view wx:for="{{holes}}" class="hole" style="--left:{{item.x+'rpx'}};--top:{{item.y+'rpx'}}">
-      <image src="{{item.active?'../../static/image/cat-2.png':'cat'}}" class="{{item.active?'active-cat':'cat'}}" mode="widthFix"  bindtap="hit"/>
+      <image src="{{item.active?'../../static/image/cat-2.png':''}}" class="{{item.active?'active-cat':'cat'}}" mode="widthFix"  bindtap="hit"/>
     </view>
   </view>
   <button bindtap="start">开始</button>
