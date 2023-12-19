@@ -10,7 +10,8 @@
   height: 600rpx;
   margin: 100rpx auto;
 }
-.hole-main{
+
+.hole-main {
   width: 200rpx;
   height: 200rpx;
   overflow: hidden;
@@ -18,34 +19,44 @@
 
 .hole {
   width: 160rpx;
-  height: 60rpx;
+  height: 65rpx;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 80%;
+  background: rgb(148, 75, 33);
+}
+
+.hole-box {
+  width: 200rpx;
+  height: 200rpx;
   position: absolute;
   top: var(--top);
   left: var(--left);
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 90%;
-  background: rgb(148, 75, 33);
+  overflow: hidden;
 }
 
 .cat {
-  width: 122rpx;
-  height: 100rpx;
+  width: 79rpx;
+  height: 64rpx;
   position: absolute;
-  top: 60rpx;
-  /* display: none; */
+  transform: translateY(80rpx);
+  transition: transform 0.4s ease-out;
 }
 
 .active-cat {
-  width: 122rpx;
-  height: 100rpx;
+  width:79rpx;
+  height: 64rpx;
   position: absolute;
   transform: translateY(-45rpx);
   transition: transform 0.4s ease-out;
-  /* top: -100rpx; */
 }
 
-.reset{
+.reset {
   margin-top: 40rpx;
 }

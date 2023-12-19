@@ -100,10 +100,7 @@ Page({
     })
     let result = this.arraysAreEqual(oldblocks, this.data.blocks)
     if (result) {
-      wx.showToast({
-        title: '恭喜获胜',
-        icon: 'none'
-      })
+      getApp().showToast('恭喜获胜')
       this.setData({
         gameover: true
       })

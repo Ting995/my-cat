@@ -44,7 +44,15 @@ Page({
       'holes[5].active': true
     })
   },
-  hit(){
+  hit(e){
+    console.log(e);
+    let {index}=e.currentTarget.dataset
+    const holes=this.data.holes
+    holes[index].active=false
+    this.setData({
+      holes:holes
+    })
+
     getApp().showToast('老登，别打我这个小可爱')
   }
 
