@@ -1,2 +1,10 @@
 // app.js
-App({})
+App({
+  globalData(){},
+  showToast(title) {
+    wx.showToast({
+      icon: 'none',
+      title,
+    })
+  },
+})
