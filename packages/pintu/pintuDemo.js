@@ -105,5 +105,12 @@ Page({
         gameover: true
       })
     }
-  }
+  },
+  onShareAppMessage: function () {
+    return {
+      title: '一起来玩华容道~',
+      path: '/packages/pintu/pintuDemo',
+      imageUrl: '/static/image/logo.jpg'
+    }
+  },
 })

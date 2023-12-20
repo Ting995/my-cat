@@ -8,7 +8,7 @@
   position: relative;
   width: 600rpx;
   height: 600rpx;
-  margin: 100rpx auto;
+  margin: 0 auto;
 }
 
 .hole-main {
@@ -59,4 +59,8 @@
 
 .reset {
   margin-top: 40rpx;
+}
+
+.start{
+  margin-top: 50rpx;
 }

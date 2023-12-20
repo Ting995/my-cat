@@ -7,8 +7,8 @@
     </view>
 
   </view>
-  <button bindtap="start">开始</button>
+  <button bindtap="start" class="start">开始</button>
   <button class="reset" bindtap="initHoles">重置</button>
 </view>
 <view>倒计时：{{countDown}}s</view>
-<view>得分：{{score}}</view>
+<view>得分：{{score}}分</view>
