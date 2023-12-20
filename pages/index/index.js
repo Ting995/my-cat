@@ -9,12 +9,12 @@ Page({
     switch (type) {
       case 'huarongdao':
         wx.navigateTo({
-          url: `/packages/pintu/pintuDemo`
+          url: `/packages/SZHRD/index`
         })
         break;
       case 'dadishu':
         wx.navigateTo({
-          url: `/packages/dadishu/dadishuDemo`
+          url: `/packages/DDS/index`
         })
         break;
 

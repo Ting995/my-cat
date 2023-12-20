@@ -123,7 +123,7 @@ Page({
   onShareAppMessage: function () {
     return {
       title: '一起来玩打地鼠~',
-      path: '/packages/dadishu/dadishuDemo',
+      path: '/packages/DDS/index',
       imageUrl: '/static/image/logo.jpg'
     }
   },
