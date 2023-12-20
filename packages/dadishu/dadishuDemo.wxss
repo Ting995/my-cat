@@ -53,7 +53,7 @@
   width:79rpx;
   height: 64rpx;
   position: absolute;
-  transform: translateY(-45rpx);
+  transform: translateY(-20rpx);
   transition: transform 0.4s ease-out;
 }
 

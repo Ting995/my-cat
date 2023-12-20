@@ -7,7 +7,7 @@
     </view>
 
   </view>
-  <button bindtap="start" class="start">开始</button>
+  <button bindtap="tapStart" class="start">开始</button>
   <button class="reset" bindtap="initHoles">重置</button>
 </view>
 <view>倒计时：{{countDown}}s</view>
