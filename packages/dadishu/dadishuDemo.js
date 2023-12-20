@@ -39,10 +39,7 @@ Page({
     }, 2000)
     this.setData({
       holes: holes,
-      gameover: false,
-      score:0,
-      countDown:10,
-      timer:null
+      gameover: false
     })
     this.startCountDown()
   },
