@@ -17,7 +17,11 @@ Page({
           url: `/packages/DDS/index`
         })
         break;
-
+        case 'elsfk':
+          wx.navigateTo({
+            url: `/packages/ELSFK/index`
+          })
+          break;
     }
   },
   onShareAppMessage: function () {

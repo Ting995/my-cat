@@ -10,14 +10,7 @@
       "list": [
         {
           "name": "",
-          "pathName": "packages/dadishu/dadishuDemo",
-          "query": "",
-          "launchMode": "default",
-          "scene": null
-        },
-        {
-          "name": "",
-          "pathName": "packages/pintu/pintuDemo",
+          "pathName": "packages/ELSFK/index",
           "query": "",
           "launchMode": "default",
           "scene": null
